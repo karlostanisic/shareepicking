@@ -1,0 +1,525 @@
+@media only screen and (max-width: 540px) {
+    #sticky-nav span.nav-link-text{
+        display: block;
+        font-size: 30%;;
+    }
+    #sticky-nav {
+        width: 100%;
+    }
+    #sticky-nav li a {
+        font-size: 2em;
+        padding: .2em .3em .1em .3em;
+        text-align: center;
+        height: 100%;
+    }
+    #sticky-nav li {
+        width: 19%;
+    }
+    
+    article.message div {
+        padding-left: 5.5em;
+    }
+    article.message img {
+        max-width: 5em;
+        max-height: 5em;
+    }
+    #main-nav {
+        padding: 0;
+    }
+}
+
+body {
+    background-color: #fafafa;
+    color: #777;
+    font-family: calibri;
+}
+
+h1 {
+    font-family: "HP Simplified Light", sans;
+    margin: 0;
+    color: #8ca101;
+    font-size: 2.2em !important;
+}
+
+h1 .other-color {
+    color: #f12628;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #008a00;
+}
+
+h3 {
+    margin:0;
+    margin-bottom: .5em;
+}
+
+span.user-name {
+    color: #008a00;
+}
+
+form {
+    margin-bottom: 1em;
+}
+
+#main-nav {
+    background: white;
+    padding: 1em .2em;
+    margin-bottom: .2em;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.main-navigation {
+    padding-left: 0;
+    margin: 0;
+    background-color: white;
+    border: 1px solid #f0f0f0;
+    margin-bottom: .2em;
+}
+
+.main-navigation li {
+    display: table-cell;
+    vertical-align: top;
+    height: 100%;
+}
+
+.main-navigation li a {
+    text-decoration: none;
+    padding: .8em .4em;
+    display: block;
+    height: 100%;
+}
+
+.main-navigation li a.active {
+    background: #F34235;
+    font-weight: bold;
+    color: #f8f8f8;
+}
+
+.main-navigation li a.active:hover {
+    background: #c3352b;
+}
+
+.main-navigation li a:hover {
+    background: #F34235;
+    color: #f8f8f8;
+}
+
+nav li a.dropdown-toggle:hover {
+    background: #F34235;
+    color: #f8f8f8;
+}
+
+.dropdown-toggle:active, .open .dropdown-toggle {
+    background:#F34235 !important; 
+    color:#f8f8f8 !important;
+}
+
+.sticky {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    border-top: 0;
+    width: 100%;
+}
+
+#content {
+    border: 1px solid #f0f0f0;
+    margin-top: 0;
+    background-color: white;
+    position: relative;
+    padding: 5%;
+}
+
+.profile-info img{
+    max-height: 12em;
+    max-width: 8em;  
+}
+
+.profile-image {
+    background-color: white;
+    border: 1px solid #f0f0f0;
+    margin-bottom: .2em;
+    padding: .5em;
+}
+
+.profile-image h2 {
+    margin: 0;
+}
+
+.profile-image img {
+    max-height: 5em;
+    max-width: 3em;
+    vertical-align: baseline;
+}
+
+.user img {
+    max-width: 7em;
+    max-height: 7em;
+    float: left;
+}
+.user div {
+    padding-left: 8.5em;
+}
+
+.user p{
+    margin: .2em 0;
+}
+
+.margin-top {
+   margin-top: 2em; 
+}
+
+.friend {
+    font-size: smaller;
+    margin-bottom: 1em;
+    margin-top: 0em;
+}
+
+.friend p{
+    margin: .2em 0;
+}
+
+.message img {
+    max-width: 7em;
+    max-height: 7em;
+    float: left;
+}
+.message div {
+    padding-left: 8.5em;
+}
+
+.message {
+    clear: both;
+    margin-top: 2em;
+}
+
+.messages p{
+    margin: .2em 0;
+}
+
+.messages {
+    font-size: small;
+    margin: 2em 0;
+}
+
+.message-reply {
+    clear: both;
+}
+
+.right-message {
+    float: right;
+    width: 80%;
+}
+
+.left-message {
+    float: left;
+    width: 80%;
+}
+
+.albums {
+    margin-top: 2em;
+}
+
+.album-info {
+    text-align: center;
+    font-size: small;
+    padding-bottom: 2em;
+}
+
+.album-info p {
+    margin: .2em 0;
+}
+
+.album-info .wrapper {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+}
+
+.album-thumb {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #aaa;
+    /*border-radius: 1em;*/
+}
+
+.album-thumb:hover {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.album-thumb div {
+    width: 46%;
+    height: 46%;
+    margin: 1%;
+    display: inline-block;
+    position: relative;
+}
+
+.album-thumb img {
+    max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+.show-image {
+    text-align: center;
+}
+.show-image img{
+    max-height: 40em;
+    max-width: 100%;
+}
+
+.comments {
+    font-size: small;
+    margin: 2em 0;
+}
+
+article.comment {
+    font-size: small;
+    margin: 1em 0;
+    clear: both;
+}
+
+article.comment img {
+    max-width: 7em;
+    max-height: 7em;
+    float: left;
+}
+
+article.comment p {
+    margin: .2em 0;
+}
+
+article.comment div {
+    float:left;
+    margin-left: 1em;
+}
+
+h5 {
+    margin-top: 0px;
+}
+
+#image-placeholder {
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.image-info {
+    text-align: center;
+    font-size: small;
+    vertical-align: middle;
+    padding-bottom: 15%;
+    cursor: pointer;
+}
+
+.image-wrapper {
+    border: 1px solid lightgrey;
+    width: 100%; 
+    padding-bottom: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.image-wrapper img {
+    max-height: 100%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+.album-images {
+    margin-top: 2em;
+}
+
+.show-image {
+    cursor: pointer;
+}
+
+#gallery-frame {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top:0; left:0; 
+    display: none;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+}
+
+#image-frame {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 80%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#image-frame img{
+    max-height: 95%;  
+    max-width: 100%; 
+    width: auto;
+    height: auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto;
+}
+
+.gallery-counter {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    font-size: 1.5em;
+    color: gray;
+    z-index: 1000;
+    padding-left: .2em;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.gallery-backward, .gallery-forward {
+    position: absolute;
+    top: 50%;
+    font-size: 4em;
+    vertical-align: central;
+    color: gray;
+    transform: translate(0,-50%);
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.gallery-forward {
+    right: 0%;
+}
+
+.gallery-backward:hover, .gallery-forward:hover {
+    color: lightgrey;
+}
+
+.gallery-backward, .gallery-forward {
+    -webkit-user-select: none;       
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+
+/*.gallery-backward::-moz-selection, .gallery-forward::-moz-selection {
+    background: none;
+}
+.gallery-backward::selection, .gallery-forward::selection {
+    background: none;
+}*/
+
+.img-options .form-control {
+    display: inline; 
+    width: 10em;
+}
+
+.notifications {
+    margin-top: 2em;
+}
+
+.notification {
+    margin-bottom: 1.5em;
+    height: 4em;
+}
+
+.notification p {
+    line-height: 100%;
+    margin: 0;
+    margin-bottom: .5em;
+}
+
+.notification .notification-image {
+    float: left;
+    max-width: 4em;
+    max-height: 4em;
+}
+
+.notification .notification-icon {
+    text-align: center;
+    line-height: 100%;
+    font-size: 3em;
+    float: left;
+    max-width: 4em;
+    max-height: 4em;
+}
+
+.notification .notification-body {
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 4.5em;
+}
+
+#search-suggest {
+    display: none;
+    position: relative;
+    width: -webkit-calc(100% - 3.7em);
+    width:    -moz-calc(100% - 3.7em);
+    width:         calc(100% - 3.7em);
+}
+
+#search-suggest ul {
+    position: absolute; 
+    background: #fafafa;
+    width: 100%; 
+    border: 1px solid grey;
+    margin: 0;
+    padding: 0;
+}
+
+#search-suggest ul li {
+    white-space: nowrap; 
+    overflow:hidden;
+     margin: 0;
+}
+
+#search-suggest ul li a {
+    display: block;
+    padding: .5em 1em;
+}
+
+#search-suggest ul li a:hover {
+    background:#337ab7;
+    color: white;
+}
+
+#search-suggest ul li img {
+    display: inline-block;
+    max-height: 4em;
+    max-width: 4em;
+     vertical-align: middle;
+}
+
+#search-suggest ul li div {
+    padding-left: .3em;
+    display: inline-block;
+     vertical-align: middle;
+}
+#search-suggest ul li p {
+    margin: 0;
+}
+
+#find-friends {
+    margin-bottom: 0;
+}
