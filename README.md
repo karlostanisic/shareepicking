@@ -1,2 +1,2 @@
 # shareepicking
-photo sharing sitr
+photo sharing site
